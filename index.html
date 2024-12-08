@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="keywords" content="이케아,IKEA,크리스마스,크리스마스 트리,가구,조립가구,인테리어,홈디자인,온라인쇼핑,서비스,고객센터">
+    <meta name="description" content="지금 IKEA Family에 무료로 가입하고 다양한 멤버 전용 혜택을 누리세요.">
+    <!-- 오픈 그래프 -->
+    <meta property="og:title" content="IKEA KOREA">
+    <meta property="og:url" content="https://incamel.github.io/ikea/">
+    <meta property="og:image" content="https://github.com/incamel/mainpage/blob/master/images/projectbg/ikea.jpg?raw=true">
+    <meta property="og:description" content="이케아 크리스마스아이템을 만나보세요. 다양한 추천 제품과 혜택을 지금 확인하세요.">
+    <!-- 파비콘 -->
+    <link rel="icon" href="./favicon.ico" type="image/png">
+    <!-- 스타일시트 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- 스크립트 -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script defer src="./script/script.js"></script>
+    <!-- 타이틀 -->
+    <title>IKEA</title>
+</head>
+
+<body>
+    <!--헤더-->
+    <header>
+        <div class="l_wrap">
+            <ul class="gnb">
+                <li>
+                    <a class="products" href="#none">모든제품</a>
+                    <div class="sub_wrap" id="productMenu">
+                        <div class="sub_menu">
+                            <ul class="left">
+                                <li><a href="#none">모든제품</a></li>
+                                <li><a href="#none">신제품</a></li>
+                                <li><a href="#none"><span>크리스마스 제품</span></a></li>
+                                <li><a href="#none">침대/매트리스</a></li>
+                                <li><a href="#none">가구</a></li>
+                                <li><a href="#none">수납/정리</a></li>
+                                <li><a href="#none">조명</a></li>
+                                <li><a href="#none">새로운소식</a></li>
+                            </ul>
+                            <ul class="right">
+                                <li><a href="#none">Products</a></li>
+                                <li><a href="#none">현관
+                                        <p>추천 현관 디자인</p>
+                                    </a></li>
+                                <li><a href="#none">주방
+                                        <p>코디하기 쉬운 다이닝룸 가구</p>
+                                    </a></li>
+                                <li><a href="#none">주방
+                                        <p>아이를 생각하며 만든 기구</p>
+                                    </a></li>
+                                <div class="btn_wrap">
+                                    <div><a class="sub_btn" href="#none">IKEA Business Network 가입하기</a></div>
+                                    <div><a class="sub_btn" href="#none">IKEA Family 가입하기</a></div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="img_wrap">
+                            <img src="./image/background/sub_menu_1.jpg" alt="이케아 쇼파에서 휴식을 취하는 가족">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a class="showroom" href="#none">온라인 쇼룸</a>
+                    <div class="sub_wrap" id="showroomMenu">
+                        <div class="sub_menu">
+                            <ul class="left">
+                                <li><a href="#none">침실</a></li>
+                                <li><a href="#none">거실</a></li>
+                                <li><a href="#none">주방</a></li>
+                                <li><a href="#none">다이닝</a></li>
+                            </ul>
+                            <ul class="right">
+                                <li><a href="#none">Products</a></li>
+                                <li><a href="#none">현관
+                                        <p>추천 현관 디자인</p>
+                                    </a></li>
+                                <li><a href="#none">주방
+                                        <p>코디하기 쉬운 다이닝룸 가구</p>
+                                    </a></li>
+                                <li><a href="#none">주방
+                                        <p>아이를 생각하며 만든 기구</p>
+                                    </a></li>
+                                <div class="btn_wrap">
+                                    <div><a class="sub_btn" href="#none">IKEA Business Network 가입하기</a></div>
+                                    <div><a class="sub_btn" href="#none">IKEA Family 가입하기</a></div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="img_wrap">
+                            <img src="./image/background/sub_menu_2.png" alt="크리스마스 트리">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <h1 class="logo">
+                <a href>
+                    <span class="blind">IKEA로고</span>
+                </a>
+            </h1>
+            <div class="customer">
+                <div>
+                    <a href="#none"><span>Hey! 로그인 하기</span></a>
+                </div>
+                <div class="resp_menu">
+                    <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.666656 0.666626V3.33329H27.3333V0.666626H0.666656ZM0.666656 8.66663V11.3333H27.3333V8.66663H0.666656ZM0.666656 16.6666V19.3333H27.3333V16.6666H0.666656Z"
+                            fill="#12172A" />
+                    </svg>
+                </div>
+                <div class="resp_submenu">
+                    <div class="resp_submenu_wrap">
+                        <div class="flex_wrap">
+                            <div class="search_box">
+                                <form action="" method="get">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_177_745)">
+                                            <path
+                                                d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z"
+                                                fill="black" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_177_745">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <input type="text" name="" placeholder="검색">
+                                    <button type="submit">
+                                    </button>
+                                </form>
+                            </div>
+                            <svg class="close" viewBox="0 0 24 24" focusable="false" width="24" height="24"
+                                aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="m12 13.4142 4.9497 4.9497 1.4142-1.4142L13.4142 12l4.9497-4.9498-1.4142-1.4142L12 10.5857 7.0502 5.636 5.636 7.0502 10.5857 12 5.636 16.9497l1.4142 1.4142L12 13.4142z">
+                                </path>
+                            </svg>
+                        </div>
+                        <ul class="sub_menu">
+                            <li>
+                                <a href="#none">모든 제품</a>
+                                <svg viewBox="0 0 24 24" focusable="false" width="24" height="24" aria-hidden="true">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="m16.415 12.0011-8.0012 8.0007-1.4141-1.4143 6.587-6.5866-6.586-6.5868L8.415 4l8 8.0011z">
+                                    </path>
+                                </svg>
+                            </li>
+                            <li>
+                                <a href="#none">공간별 쇼핑하기
+                                </a>
+                                <svg viewBox="0 0 24 24" focusable="false" width="24" height="24" aria-hidden="true">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="m16.415 12.0011-8.0012 8.0007-1.4141-1.4143 6.587-6.5866-6.586-6.5868L8.415 4l8 8.0011z">
+                                    </path>
+                                </svg>
+                            </li>
+                            <li>
+                                <a href="#none">특별한 가격
+                                </a>
+                                <svg viewBox="0 0 24 24" focusable="false" width="24" height="24" aria-hidden="true">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="m16.415 12.0011-8.0012 8.0007-1.4141-1.4143 6.587-6.5866-6.586-6.5868L8.415 4l8 8.0011z">
+                                    </path>
+                                </svg>
+                            </li>
+                            <li>
+                                <a href="#none">새로운 소식
+                                </a>
+                                <svg viewBox="0 0 24 24" focusable="false" width="24" height="24" aria-hidden="true">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="m16.415 12.0011-8.0012 8.0007-1.4141-1.4143 6.587-6.5866-6.586-6.5868L8.415 4l8 8.0011z">
+                                    </path>
+                                </svg>
+                            </li>
+                            <li>
+                                <a href="#none">아이디어
+                                </a>
+                                <svg viewBox="0 0 24 24" focusable="false" width="24" height="24" aria-hidden="true">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="m16.415 12.0011-8.0012 8.0007-1.4141-1.4143 6.587-6.5866-6.586-6.5868L8.415 4l8 8.0011z">
+                                    </path>
+                                </svg>
+                            </li>
+                            <li>
+                                <a href="#none">플래닝&체크 서비스
+                                </a>
+                                <svg viewBox="0 0 24 24" focusable="false" width="24" height="24" aria-hidden="true">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="m16.415 12.0011-8.0012 8.0007-1.4141-1.4143 6.587-6.5866-6.586-6.5868L8.415 4l8 8.0011z">
+                                    </path>
+                                </svg>
+                            </li>
+                        </ul>
+                        <ul class="etc_link">
+                            <li>
+                                <a href="#none">매장안내
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">IKEA Live
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">IKEA FamilY 멤버쉽
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">IKEA for Business
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">고객 서비스
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="bottom_ad">
+                            <p>만 원부터 시작하는 가구 배송</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--메인-->
+    <main>
+        <section class="main_visual">
+            <div class="visual_wrap">
+                <div class="main_text fade-in">
+                    <h2>수많은 처음들이<br>시작되는 곳, 집</h2>
+                    <p>IKEA가 준비한 새 삶의 시작을 위한 다양한 발견들을 만나보세요. <br>좋아하는 것들을 포기하지 않고 당신의 열정이 이끄는 대로,
+                        <br>마음 놓고 모험을 시작할 수 있다면 그곳이 당신의 집입니다<br>
+                    </p>
+                </div>
+                <div class="visual_bg">
+                    <img aria-hidden="true" src="./image/background/main_img.png">
+                    <div aria-hidden="true" class="phone_img">
+                        <img aria-hidden="true" src="./image/background/main_phone.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="gallery_wrap">
+                <div class="gallery_text fade-in">
+                    <p>IKEA IDEA</p>
+                    <h2>홈오피스를 위한<br>아이디어 갤러리</h2>
+                </div>
+                <div class="card_wrap fade-in">
+                    <div class="card">
+                        <div class="card_content">
+                            <div class="card_text">
+                                <p>홈 오피스</p>
+                                <p>쉽게 구성할 수 있는 실용적인 업무, 공부, <br> 취미 공간을 위한 아이디어를 확인해보세요.</p>
+                            </div>
+                            <div class="card_btn btn"><a href="#none">View more</a></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_content">
+                            <div class="card_text">
+                                <p>IKEA for Business</p>
+                                <p>IKEA for Business에서는 비즈니스 가구 제품을 살펴보고<br>
+                                    배송, 조립 서비스에 대한 안내를 받아보세요.</p>
+                            </div>
+                            <div class="card_btn btn"><a href="#none">View more</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="package">
+            <div class="package_wrap">
+                <div class="package_text fade-in">
+                    <p>IKEA IDEA</p>
+                    <h2>IKEA Package<br>
+                        PRODUCTS</h2>
+                    <p>이케아의 인테리어 패키지를 확인하세요.<br>본인만의 스타일을 만들어 구매하세요.</p>
+                </div>
+                <div class="video_container">
+                    <div class="video_content fade-in">
+                        <div class="video_wrap">
+                            <video autoplay muted loop playsinline src="./video/products_01.mp4"></video>
+                        </div>
+                        <div class="video_info">
+                            <div class="video_title">
+                                <p>나만의 공간</p>
+                                <p>침실 시리즈 중에서 어울릴 만한 가구를 선택해 보세요.</p>
+                            </div>
+                            <div class="video_more ">
+                                <a href="#none">
+                                    <div class="more_btn">
+                                        <p>내가 꾸미는 나만의 공간</p>
+                                        <div>
+                                            <p>작지만 개성넘치는 침실로 드레스업
+                                            </p>
+                                            <svg width="10" height="17" viewBox="0 0 7 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0.700048 11.3C0.516715 11.1167 0.425049 10.8834 0.425049 10.6C0.425049 10.3167 0.516715 10.0834 0.700048 9.90005L4.60005 6.00005L0.700048 2.10005C0.516715 1.91672 0.425049 1.68338 0.425049 1.40005C0.425049 1.11672 0.516715 0.883382 0.700048 0.700048C0.883382 0.516715 1.11671 0.425049 1.40005 0.425049C1.68338 0.425049 1.91672 0.516715 2.10005 0.700048L6.70005 5.30005C6.80005 5.40005 6.87105 5.50838 6.91305 5.62505C6.95438 5.74172 6.97505 5.86672 6.97505 6.00005C6.97505 6.13338 6.95438 6.25838 6.91305 6.37505C6.87105 6.49172 6.80005 6.60005 6.70005 6.70005L2.10005 11.3C1.91672 11.4834 1.68338 11.575 1.40005 11.575C1.11671 11.575 0.883382 11.4834 0.700048 11.3Z"
+                                                    fill="#00CCC2" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#none">
+                                    <div class="more_btn">
+                                        <p>침실 꾸미기팁 갤러리</p>
+                                        <div>
+                                            <p>침실을 나만의 공간으로 만들기
+                                            </p>
+                                            <svg width="10" height="17" viewBox="0 0 7 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0.700048 11.3C0.516715 11.1167 0.425049 10.8834 0.425049 10.6C0.425049 10.3167 0.516715 10.0834 0.700048 9.90005L4.60005 6.00005L0.700048 2.10005C0.516715 1.91672 0.425049 1.68338 0.425049 1.40005C0.425049 1.11672 0.516715 0.883382 0.700048 0.700048C0.883382 0.516715 1.11671 0.425049 1.40005 0.425049C1.68338 0.425049 1.91672 0.516715 2.10005 0.700048L6.70005 5.30005C6.80005 5.40005 6.87105 5.50838 6.91305 5.62505C6.95438 5.74172 6.97505 5.86672 6.97505 6.00005C6.97505 6.13338 6.95438 6.25838 6.91305 6.37505C6.87105 6.49172 6.80005 6.60005 6.70005 6.70005L2.10005 11.3C1.91672 11.4834 1.68338 11.575 1.40005 11.575C1.11671 11.575 0.883382 11.4834 0.700048 11.3Z"
+                                                    fill="#00CCC2" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_content fade-in">
+                        <div class="video_wrap">
+                            <video autoplay muted loop playsinline src="./video/products_02.mp4"></video>
+                        </div>
+                        <div class="video_info">
+                            <div class="video_title">
+                                <p>비즈니스 공간</p>
+                                <p>꿈에 그리던 홈오피스를 만나보세요.</p>
+                            </div>
+                            <div class="video_more">
+                                <a href="#none">
+                                    <div class="more_btn">
+                                        <p>Business Sistem</p>
+                                        <div>
+                                            <p>쉽게 코디할 수 있는 홈오피스 가구와 수납</p>
+                                            <svg width="10" height="17" viewBox="0 0 7 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0.700048 11.3C0.516715 11.1167 0.425049 10.8834 0.425049 10.6C0.425049 10.3167 0.516715 10.0834 0.700048 9.90005L4.60005 6.00005L0.700048 2.10005C0.516715 1.91672 0.425049 1.68338 0.425049 1.40005C0.425049 1.11672 0.516715 0.883382 0.700048 0.700048C0.883382 0.516715 1.11671 0.425049 1.40005 0.425049C1.68338 0.425049 1.91672 0.516715 2.10005 0.700048L6.70005 5.30005C6.80005 5.40005 6.87105 5.50838 6.91305 5.62505C6.95438 5.74172 6.97505 5.86672 6.97505 6.00005C6.97505 6.13338 6.95438 6.25838 6.91305 6.37505C6.87105 6.49172 6.80005 6.60005 6.70005 6.70005L2.10005 11.3C1.91672 11.4834 1.68338 11.575 1.40005 11.575C1.11671 11.575 0.883382 11.4834 0.700048 11.3Z"
+                                                    fill="#00CCC2" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#none">
+                                    <div class="more_btn">
+                                        <p>홈오피스 아이디어 갤러리</p>
+                                        <div>
+                                            <p>공간을 활용한 아이디어</p>
+                                            <svg width="10" height="17" viewBox="0 0 7 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0.700048 11.3C0.516715 11.1167 0.425049 10.8834 0.425049 10.6C0.425049 10.3167 0.516715 10.0834 0.700048 9.90005L4.60005 6.00005L0.700048 2.10005C0.516715 1.91672 0.425049 1.68338 0.425049 1.40005C0.425049 1.11672 0.516715 0.883382 0.700048 0.700048C0.883382 0.516715 1.11671 0.425049 1.40005 0.425049C1.68338 0.425049 1.91672 0.516715 2.10005 0.700048L6.70005 5.30005C6.80005 5.40005 6.87105 5.50838 6.91305 5.62505C6.95438 5.74172 6.97505 5.86672 6.97505 6.00005C6.97505 6.13338 6.95438 6.25838 6.91305 6.37505C6.87105 6.49172 6.80005 6.60005 6.70005 6.70005L2.10005 11.3C1.91672 11.4834 1.68338 11.575 1.40005 11.575C1.11671 11.575 0.883382 11.4834 0.700048 11.3Z"
+                                                    fill="#00CCC2" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_content fade-in">
+                        <div class="video_wrap">
+                            <video autoplay muted loop playsinline src="./video/products_03.mp4">
+
+                            </video>
+                        </div>
+                        <div class="video_info">
+                            <div class="video_title">
+                                <p>주방 플래닝</p>
+                                <p>집에서 주방 플래닝을 시작해 보세요.</p>
+                            </div>
+                            <div class="video_more">
+                                <a href="#none">
+                                    <div class="more_btn">
+                                        <p>IKEA 주방 라이브러리</p>
+                                        <div>
+                                            <p>3단계의 스마트 스텝으로<br>우리 집에 맞는 IKEA 주방을 찾아보세요!</p>
+                                            <svg width="10" height="17" viewBox="0 0 7 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0.700048 11.3C0.516715 11.1167 0.425049 10.8834 0.425049 10.6C0.425049 10.3167 0.516715 10.0834 0.700048 9.90005L4.60005 6.00005L0.700048 2.10005C0.516715 1.91672 0.425049 1.68338 0.425049 1.40005C0.425049 1.11672 0.516715 0.883382 0.700048 0.700048C0.883382 0.516715 1.11671 0.425049 1.40005 0.425049C1.68338 0.425049 1.91672 0.516715 2.10005 0.700048L6.70005 5.30005C6.80005 5.40005 6.87105 5.50838 6.91305 5.62505C6.95438 5.74172 6.97505 5.86672 6.97505 6.00005C6.97505 6.13338 6.95438 6.25838 6.91305 6.37505C6.87105 6.49172 6.80005 6.60005 6.70005 6.70005L2.10005 11.3C1.91672 11.4834 1.68338 11.575 1.40005 11.575C1.11671 11.575 0.883382 11.4834 0.700048 11.3Z"
+                                                    fill="#00CCC2" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#none">
+                                    <div class="more_btn">
+                                        <p>주방 아이디어 갤러리</p>
+                                        <div>
+                                            <p>모든 스타일과 공간, 예산에 맞는<br>주방 아이디어
+                                            </p>
+                                            <svg width="10" height="17" viewBox="0 0 7 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0.700048 11.3C0.516715 11.1167 0.425049 10.8834 0.425049 10.6C0.425049 10.3167 0.516715 10.0834 0.700048 9.90005L4.60005 6.00005L0.700048 2.10005C0.516715 1.91672 0.425049 1.68338 0.425049 1.40005C0.425049 1.11672 0.516715 0.883382 0.700048 0.700048C0.883382 0.516715 1.11671 0.425049 1.40005 0.425049C1.68338 0.425049 1.91672 0.516715 2.10005 0.700048L6.70005 5.30005C6.80005 5.40005 6.87105 5.50838 6.91305 5.62505C6.95438 5.74172 6.97505 5.86672 6.97505 6.00005C6.97505 6.13338 6.95438 6.25838 6.91305 6.37505C6.87105 6.49172 6.80005 6.60005 6.70005 6.70005L2.10005 11.3C1.91672 11.4834 1.68338 11.575 1.40005 11.575C1.11671 11.575 0.883382 11.4834 0.700048 11.3Z"
+                                                    fill="#00CCC2" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="promotion">
+            <div class="promotion_wrap fade-in">
+                <p>IKEA EVENT&PROMOTION</p>
+                <h2>IKEA<br>KOREA</h2>
+                <p>진행 중인 이벤트 및 프로모션</p>
+                <div class="promotion_text">
+                    <p>4월 14일 4시<br>IKEA Live!</p>
+                    <p>새삶스럽게 팝업 <br>무엇인가를 새롭게 시작할 수 있는 공간이라면 그곳이 카페의좋아하는 자리이든, 기숙사이든, 어디든 집이 될 수 있어요.수많은 처음들이 시작되는 곳, 집에
+                        대한 새로운 발견을 담은'새삶스럽게' 팝업 공간을 소개합니다.</p>
+                </div>
+                <div class="promotion_visual">
+                    <img src="./image/background/promotion_img.png" alt="새삶스럽게 행사를 진행중">
+                    <span class="particles_01">
+                        <svg class="particle01" width="90" height="34" viewBox="0 0 90 66" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="45" cy="33" rx="45" ry="33" fill="#4642E5" />
+                        </svg>
+                        <svg class="particle02" width="52" height="32" viewBox="0 0 52 92" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="26" cy="46" rx="26" ry="46" fill="#FCB603" />
+                        </svg>
+                        <svg class="particle03" width="84" height="56" viewBox="0 0 84 66" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="42" cy="32.9999" rx="26" ry="46" transform="rotate(-60 42 32.9999)"
+                                fill="#3AD8C9" />
+                        </svg>
+                        <svg class="particle04" width="30" height="20" viewBox="0 0 30 60" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="15" cy="30" rx="15" ry="30" fill="#4642E5" />
+                        </svg>
+                    </span>
+                    <span class="particles_02">
+                        <svg class="particle01" width="20" height="34" viewBox="0 0 90 66" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="45" cy="33" rx="45" ry="33" fill="#2F948A" />
+                        </svg>
+                        <svg class="particle02" width="52" height="62" viewBox="0 0 52 92" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="26" cy="46" rx="26" ry="46" fill="#FCB603" />
+                        </svg>
+                        <svg class="particle03" width="84" height="56" viewBox="0 0 84 66" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="42" cy="32.9999" rx="26" ry="46" transform="rotate(-60 42 32.9999)"
+                                fill="#3AD8C9" />
+                        </svg>
+                        <svg class="particle04" width="30" height="40" viewBox="0 0 30 60" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="15" cy="30" rx="15" ry="30" fill="#FBA826" />
+                        </svg>
+                    </span>
+
+                </div>
+            </div>
+        </section>
+        <section class="cristmas ">
+            <div class="cristmas_wrap">
+                <div class="cristmas_card fade-in">
+                    <div class="card_text">
+                        <p>IKEA 신제품과 함께<br>
+                            크리스마스 맞이해요</p>
+                        <p>두근거리는 크리스마스 시즌이 오고 있어요. <br>
+                            이케아의 크리스마스 마켓에서 <br>
+                            성탄절을 위한 모든 것을 만나보세요!</p>
+                        <div class="more_btn">
+                            <a href="#none">할인 제품 바로보기</a>
+                        </div>
+                    </div>
+                    <div class="img_wrap">
+                        <img src="./image/background/tree_05.jpg" alt="형형색의 선물상자">
+                    </div>
+                </div>
+                <div class="tree fade-in">
+                    <div class="tree_text fade-in">
+                        <p>크리스마스 트리</p>
+                        <p>메리 크리스마스! 우리 집을 파티 분위기로 가득 채울 시간입니다. 다양한 사이즈의 트리와 스웨덴 겨울 풍경에서 영감받은 크리스마스 장식,<br>
+                            파티 무드를 완성해 줄 트리 전구까지. 이번 크리스마스를 더욱 특별하게 만들어 보세요!</p>
+                    </div>
+                    <div class="img_container">
+                        <div class="tree_video_wrap">
+                            <video autoplay muted loop playsinline src="./video/tree_01.webm"></video>
+                        </div>
+                        <div class="flex_wrap">
+                            <div class="tree_wrap">
+                                <div><img src="./image/background/tree_01.webp" alt="크리스마스 트리 전구"></div>
+                                <div><img src="./image/background/tree_03.jpg" alt="크리스마스 트리 장식물"></div>
+                            </div>
+                            <div class="tree_wrap">
+                                <div><img src="./image/background/tree_02.jpg" alt="크리스마스 트리"></div>
+                                <div><img src="./image/background/tree_04.jpg" alt="트리를 꾸미는 어린아이"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="showroom">
+            <div class="show_wrap fade-in">
+                <div class="show_text">
+                    <p>OUR PRODUCTS</p>
+                    <h2>온라인쇼룸<br>살펴보기</h2>
+                    <p>부담 없는 가격에 거실의 스타일을 새롭게 바꾸는 가장 쉬운 방법은 소파커버를 바꾸는 거예요. 새로운 분리형 커버로 클래식하고 자연스러운 스타일을 연출해 보세요.</p>
+                </div>
+                <div class="info_btn">
+                    <a href="">Join the network</a>
+                </div>
+            </div>
+            <div class="carousel_wrap">
+                <div class="carousel animation">
+                    <div class="group">
+                        <div class="card"><img src="./image/background/productimg_01.jpg" alt="쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_02.jpg" alt="쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_03.jpg" alt="가죽쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_04.jpg" alt="철제쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_05.jpg" alt="검정쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_06.jpg" alt="초록패딩쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_07.jpg" alt="브라운털쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_08.jpg" alt="검정쇼파"></div>
+                    </div>
+                    <div class="group">
+                        <div class="card"><img src="./image/background/productimg_01.jpg" alt="쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_02.jpg" alt="쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_03.jpg" alt="가죽쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_04.jpg" alt="철제쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_05.jpg" alt="검정쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_06.jpg" alt="초록패딩쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_07.jpg" alt="브라운털쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_08.jpg" alt="검정쇼파"></div>
+                    </div>
+                </div>
+                <div class="carousel animation_right">
+                    <div class="group">
+                        <div class="card"><img src="./image/background/productimg_01.jpg" alt="쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_02.jpg" alt="쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_03.jpg" alt="가죽쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_04.jpg" alt="철제쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_05.jpg" alt="검정쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_06.jpg" alt="초록패딩쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_07.jpg" alt="브라운털쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_08.jpg" alt="검정쇼파"></div>
+                    </div>
+                    <div class="group">
+                        <div class="card"><img src="./image/background/productimg_01.jpg" alt="쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_02.jpg" alt="쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_03.jpg" alt="가죽쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_04.jpg" alt="철제쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_05.jpg" alt="검정쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_06.jpg" alt="초록패딩쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_07.jpg" alt="브라운털쇼파"></div>
+                        <div class="card"><img src="./image/background/productimg_08.jpg" alt="검정쇼파"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service">
+            <div class="service_wrap fade-in">
+                <p class="service_text">IKEA Service</p>
+                <div><a href="#none">IKEA 서비스</a></div>
+                <div><a href="#none">설치 서비스</a></div>
+
+            </div>
+        </section>
+    </main>
+    </div>
+    <!--풋터-->
+    <footer>
+        <div class="footer_wrap">
+            <div class="flex_wrap">
+                <div class="featured">
+                    <div class="featured_link">
+                        <h3>IKEA Family</h3>
+                        <p>지금 IKEA Family에 무료로 가입하고<br>
+                            다양한 멤버 전용 혜택을 누리세요.</p>
+                        <a href="#none">자세히 보기</a>
+                        <div class="btn">
+                            <a href="#none">IKEA Family 가입하기</a>
+                        </div>
+                    </div>
+                    <div class="featured_link">
+                        <h3>IKEA Family</h3>
+                        <p>지금 IKEA Family에 무료로 가입하고<br>
+                            다양한 멤버 전용 혜택을 누리세요.</p>
+                        <a href="#none">자세히 보기</a>
+                        <div class="btn">
+                            <a href="#none">IKEA Business Network 가입하기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion_item">
+                    <span class="accordion_header">
+                        <div><a href="#none">고객문의</a></div>
+                        <svg viewBox="0 0 24 24" focusable="false" width="24" height="24" aria-hidden="true"
+                            class="hnf-svg-icon hnf-svg-icon--social">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.9999 17.0605 3.9992 9.0593l1.4142-1.4141L12 14.2322l6.5869-6.586 1.4141 1.4143-8.0011 8z">
+                            </path>
+                        </svg>
+                    </span>
+                    <ul class="accordion_list">
+                        <li><a href="#none">고객문의</a></li>
+                        <li><a href="#none">고객 서비스</a></li>
+                        <li><a href="#none">자주 묻는 질문</a></li>
+                        <li><a href="#none">배송조희</a></li>
+                        <li><a href="#none">교환환불</a></li>
+                        <li><a href="#none">품질보증</a></li>
+                        <li><a href="#none">제품리콜</a></li>
+                        <li><a href="#none">피드백</a></li>
+                        <li><a href="#none">부품 신청</a></li>
+                    </ul>
+                </div>
+                <div class="accordion_item">
+                    <span class="accordion_header">
+                        <div><a href="#none">쇼핑하기</a></div>
+                        <svg viewBox="0 0 24 24" focusable="false" width="24" height="24" aria-hidden="true"
+                            class="hnf-svg-icon hnf-svg-icon--social">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.9999 17.0605 3.9992 9.0593l1.4142-1.4141L12 14.2322l6.5869-6.586 1.4141 1.4143-8.0011 8z">
+                            </path>
+                        </svg>
+                    </span>
+                    <ul class="accordion_list">
+                        <li><a href="#none">쇼핑하기</a></li>
+                        <li><a href="#none">전화 주문</a></li>
+                        <li><a href="#none">IKEA fot Business</a></li>
+                        <li><a href="#none">셀프 플래닝</a></li>
+                        <li><a href="#none">이케아 모바일 앱</a></li>
+                        <li><a href="#none">제품 사용 팁 / 가이드</a></li>
+                        <li><a href="#none">브로슈어 / 제품 구매 안내</a></li>
+                        <li><a href="#none">결제 옵션</a></li>
+                        <li><a href="#none">기프트 카드</a></li>
+                    </ul>
+                </div>
+                <div class="accordion_item">
+                    <span class="accordion_header">
+                        <div><a href="#none">서비스</a></div>
+                        <svg viewBox="0 0 24 24" focusable="false" width="24" height="24" aria-hidden="true"
+                            class="hnf-svg-icon hnf-svg-icon--social">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.9999 17.0605 3.9992 9.0593l1.4142-1.4141L12 14.2322l6.5869-6.586 1.4141 1.4143-8.0011 8z">
+                            </path>
+                        </svg>
+                    </span>
+                    <ul class="accordion_list">
+                        <li><a href="#none">서비스</a></li>
+                        <li><a href="#none">이케아 서비스</a></li>
+                        <li><a href="#none">배송 서비스</a></li>
+                        <li><a href="#none">조립 서비스</a></li>
+                        <li><a href="#none">설치 서비스</a></li>
+                        <li><a href="#none">주방 서비스</a></li>
+                        <li><a href="#none">구매 상담 서비스</a></li>
+                        <li><a href="#none">인테리어 디자인 서비스</a></li>
+                        <li><a href="#none">바이백 서비스</a></li>
+                    </ul>
+                </div>
+                <div class="accordion_item">
+                    <span class="accordion_header">
+                        <div><a href="#none">이케아 이야기</a></div>
+                        <svg viewBox="0 0 24 24" focusable="false" width="24" height="24" aria-hidden="true"
+                            class="hnf-svg-icon hnf-svg-icon--social">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.9999 17.0605 3.9992 9.0593l1.4142-1.4141L12 14.2322l6.5869-6.586 1.4141 1.4143-8.0011 8z">
+                            </path>
+                        </svg>
+                    </span>
+                    <ul class="accordion_list">
+                        <li><a href="#none">이케아 이야기</a></li>
+                        <li><a href="#none">브랜드 소개</a></li>
+                        <li><a href="#none">집에서의 생활</a></li>
+                        <li><a href="#none">지속가능한 생활</a></li>
+                        <li><a href="#none">뉴스룸</a></li>
+                        <li><a href="#none">채용 정보</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="icon_bar">
+                <ul class="sns_list_wrap">
+                    <li class="i_wrap" aria-label="페이스북"><a href="#none">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24.146 12.073C24.146 5.40365 18.7424 0 12.073 0C5.40365 0 0 5.40365 0 12.073C0 18.0988 4.41493 23.0935 10.1866 24V15.563H7.11968V12.073H10.1866V9.41306C10.1866 6.38751 11.9878 4.71627 14.7466 4.71627C16.0678 4.71627 17.4494 4.95189 17.4494 4.95189V7.92146H15.9267C14.4273 7.92146 13.9594 8.85225 13.9594 9.8069V12.073H17.3077L16.7723 15.563H13.9594V24C19.7311 23.0935 24.146 18.0988 24.146 12.073Z"
+                                    fill="#5A5454" />
+                            </svg>
+                        </a></li>
+                    <li class="i_wrap" aria-label="인스타그램"><a href="#none">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M7.05266 0.072C8.33267 0.0133309 8.74067 0 12 0C15.26 0 15.6673 0.0139963 16.9466 0.072C18.2246 0.130004 19.0973 0.333338 19.8607 0.63C20.6613 0.931429 21.3865 1.40372 21.986 2.014C22.5963 2.61338 23.0687 3.33868 23.37 4.13933C23.6666 4.90267 23.8693 5.77534 23.928 7.05266C23.9867 8.33267 24 8.74067 24 12C24 15.2593 23.986 15.6673 23.928 16.9474C23.87 18.2246 23.6666 19.0973 23.37 19.8607C23.0633 20.6494 22.6526 21.3193 21.986 21.986C21.3866 22.5963 20.6613 23.0687 19.8607 23.37C19.0973 23.6666 18.2246 23.8693 16.9474 23.928C15.6673 23.9867 15.2593 24 12 24C8.74067 24 8.33267 23.986 7.05266 23.928C5.77534 23.87 4.90267 23.6666 4.13933 23.37C3.35066 23.0633 2.68067 22.6526 2.014 21.986C1.40361 21.3866 0.931287 20.6613 0.63 19.8607C0.333338 19.0973 0.130669 18.2246 0.072 16.9474C0.0133309 15.6673 0 15.26 0 12C0 8.74 0.0139963 8.33267 0.072 7.05334C0.130004 5.77534 0.333338 4.90267 0.63 4.13933C0.931429 3.33874 1.40372 2.61347 2.014 2.014C2.61337 1.40361 3.33867 0.931287 4.13933 0.63C4.90267 0.333338 5.77534 0.130669 7.05266 0.072ZM16.8493 2.232C15.584 2.17466 15.204 2.162 12 2.162C8.796 2.162 8.416 2.17466 7.15067 2.232C5.98067 2.28533 5.34534 2.48066 4.92266 2.64533C4.36267 2.86267 3.96266 3.12266 3.54266 3.54266C3.12334 3.96266 2.86267 4.36267 2.64533 4.92266C2.48066 5.34534 2.28533 5.98067 2.232 7.15067C2.17466 8.416 2.162 8.796 2.162 12C2.162 15.204 2.17466 15.584 2.232 16.8493C2.28533 18.0193 2.48066 18.6547 2.64533 19.0774C2.83757 19.5986 3.14421 20.0701 3.54266 20.4574C3.92983 20.8558 4.40139 21.1624 4.92266 21.3547C5.34534 21.5194 5.98067 21.7147 7.15067 21.768C8.416 21.8254 8.79533 21.838 12 21.838C15.2047 21.838 15.584 21.8254 16.8493 21.768C18.0193 21.7147 18.6547 21.5194 19.0774 21.3547C19.6373 21.1373 20.0374 20.8774 20.4574 20.4574C20.8558 20.0702 21.1624 19.5986 21.3547 19.0774C21.5194 18.6547 21.7147 18.0193 21.768 16.8493C21.8254 15.584 21.838 15.204 21.838 12C21.838 8.796 21.8254 8.416 21.768 7.15067C21.7147 5.98067 21.5194 5.34534 21.3547 4.92266C21.1373 4.36267 20.8774 3.96266 20.4574 3.54266C20.0374 3.12334 19.6373 2.86267 19.0774 2.64533C18.6547 2.48066 18.0193 2.28533 16.8493 2.232ZM10.4678 15.6992C10.9536 15.9004 11.4742 16.004 12 16.004C13.062 16.004 14.0804 15.5821 14.8312 14.8312C15.5822 14.0804 16.0041 13.0619 16.0041 12C16.0041 10.9381 15.5822 9.91964 14.8312 9.16874C14.0804 8.41785 13.062 7.99599 12 7.99599C11.4742 7.99599 10.9536 8.09956 10.4678 8.30078C9.98193 8.502 9.54058 8.79693 9.16877 9.16874C8.79697 9.54055 8.50203 9.98193 8.30082 10.4677C8.0996 10.9535 7.99604 11.4742 7.99604 12C7.99604 12.5258 8.0996 13.0465 8.30082 13.5323C8.50203 14.0181 8.79697 14.4595 9.16877 14.8312C9.54058 15.203 9.98193 15.498 10.4678 15.6992ZM7.6386 7.63856C8.79532 6.48183 10.3642 5.83199 12 5.83199C13.6359 5.83199 15.2048 6.48183 16.3615 7.63856C17.5181 8.79528 18.168 10.3642 18.168 12C18.168 13.6358 17.5181 15.2047 16.3615 16.3615C15.2048 17.5181 13.6359 18.168 12 18.168C10.3642 18.168 8.79532 17.5181 7.6386 16.3615C6.48188 15.2047 5.83203 13.6358 5.83203 12C5.83203 10.3642 6.48188 8.79528 7.6386 7.63856ZM19.5357 6.75096C19.8091 6.47752 19.9627 6.10668 19.9627 5.72C19.9627 5.3333 19.8091 4.96246 19.5357 4.68903C19.2622 4.41561 18.8914 4.262 18.5047 4.262C18.118 4.262 17.7471 4.41561 17.4737 4.68903C17.2003 4.96246 17.0467 5.3333 17.0467 5.72C17.0467 6.10668 17.2003 6.47752 17.4737 6.75096C17.7471 7.02439 18.118 7.178 18.5047 7.178C18.8914 7.178 19.2622 7.02439 19.5357 6.75096Z"
+                                    fill="#5A5454" />
+                            </svg>
+
+                        </a></li>
+                    <li class="i_wrap" aria-label="유튜브"><a href="#none">
+                            <svg width="24" height="17" viewBox="0 0 24 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.499 2.58682C23.2139 1.57476 22.4247 0.781013 21.4081 0.500427C19.5363 2.39237e-05 12.0115 2.40447e-05 12.0115 2.40447e-05C12.0115 2.40447e-05 4.50091 -0.0119798 2.60958 0.500427C1.59827 0.781764 0.805274 1.57476 0.523187 2.58682C0.168328 4.50516 -0.0079757 6.44675 0.000276829 8.39735C-0.00347432 10.3352 0.17208 12.2738 0.523187 14.1801C0.805274 15.1922 1.59827 15.9859 2.60958 16.271C4.4814 16.7714 12.0115 16.7714 12.0115 16.7714C12.0115 16.7714 19.5175 16.7714 21.4081 16.271C22.4247 15.9859 23.2139 15.1929 23.499 14.1801C23.8433 12.2738 24.0114 10.3352 23.9994 8.39735C24.0114 6.44675 23.8471 4.50516 23.499 2.58682ZM9.60772 11.9887V4.79024L15.8714 8.39735L9.60772 11.9887Z"
+                                    fill="#5A5454" />
+                            </svg>
+                        </a></li>
+                </ul>
+
+                <div class="leng_btn">
+                    <a href="#none">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0C7.34784 0 4.8043 1.05357 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C4.8043 18.9464 7.34784 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10ZM17.93 9H15C14.8351 6.64814 14.0293 4.38635 12.67 2.46C14.0665 2.95597 15.2977 3.83007 16.2265 4.98484C17.1553 6.13962 17.745 7.52967 17.93 9ZM7.08 11H13C12.7441 13.4706 11.6911 15.7908 10 17.61C8.31007 15.7984 7.28119 13.4693 7.08 11ZM7.08 9C7.31289 6.54183 8.33759 4.22572 10 2.4C11.7047 4.20612 12.7601 6.52804 13 9H7.08ZM7.44 2.43C6.07355 4.36702 5.2548 6.63672 5.07 9H2.07C2.2589 7.5115 2.86261 6.10612 3.81217 4.94437C4.76172 3.78262 6.01886 2.91133 7.44 2.43ZM2.07 11H5.07C5.23469 13.3613 6.04788 15.6313 7.42 17.56C6.00397 17.0763 4.75199 16.2052 3.80627 15.0456C2.86055 13.886 2.25902 12.4844 2.07 11ZM12.62 17.55C13.9884 15.6207 14.8107 13.3577 15 11H17.95C17.7609 12.4802 17.1615 13.8781 16.2196 15.0356C15.2778 16.193 14.0309 17.064 12.62 17.55Z"
+                                fill="#231F20" />
+                        </svg>KR·한국어</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copy_link">
+                    <div>© Inter IKEA Systems B.V 1999-2024</div>
+                    <ul>
+                        <li><a href="#none">개인정보처리방침</a></li>
+                        <li><a href="#none">쿠키 정책</a></li>
+                        <li><a href="#none">쿠키 설정</a></li>
+                        <li><a href="#none">웹사이트 이용약관</a></li>
+                        <li><a href="#none">Responsible disclosure</a></li>
+                    </ul>
+                </div>
+                <div class="address">
+                    <address>
+                        이케아코리아 유한회사 <br>
+                        주소: (우) 14352 경기도 광명시 일직로 17, 1층(일직동) 이케아 광명점<br>
+                        사업자 등록번호: 106-86-82871 사업자정보확인<br>
+                        대표자: 이사벨 푸치 팔렘<br>
+                        통신판매업 신고: 2018-경기광명-0209 <br>
+                        고객지원센터: <a href="tel:16704532" aria-label="전화 걸기">1670-4532</a><br>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script defer>
+        if (!localStorage.getItem("pageRefreshed")) {
+            setTimeout(function () {
+                localStorage.setItem("pageRefreshed", "true");
+                location.reload();
+            }, 50);
+        } else {
+            localStorage.removeItem("pageRefreshed");
+        }
+    </script>
+</body>
+
+</html>

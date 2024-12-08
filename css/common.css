@@ -1,0 +1,106 @@
+@media screen and (max-width:600px) {
+    html {
+        font-size: 14px;
+        transition: 1s;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 함수 */
+:root {
+    /* 색상 */
+    --color-black: #12172A;
+    --color-gray: #3F4959;
+    --color-blue: #0058AB;
+    /* 폰트 사이즈 */
+    /* --font-size-14: 14px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-28: 28px;
+    --font-size-36: 36px;
+    --font-size-48: 48px; */
+    --font-size-14: 0.875rem;
+    --font-size-16: 1rem;
+    --font-size-18: 1.125rem;
+    --font-size-20: 1.25rem;
+    --font-size-28: 1.75rem;
+    --font-size-36: 2.25rem;
+    --font-size-48: 3rem;
+
+    /* 폰트 굵기 */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /* 행간 */
+    --line-height-small: 1.1;
+    --line-height-medium: 1.4;
+    --line-height-large: 1.7;
+
+    /* 폰트 */
+    --ikea-font: 'SCDream', 'Noto Sans KR', 'sans-serif';
+}
+
+* {
+    font-family: var(--ikea-font);
+}
+
+/* IR */
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+/* 커스텀 폰트 */
+@font-face {
+    font-family: "SCDream";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/SCDreamR.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "SCDream";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/SCDreamM.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "SCDream";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/SCDreamB.otf") format("opentype");
+}
+
+
+/* 마지막에 지워 */
+.r {
+    border: 1px solid red;
+}
+
+.b {
+    border: 1px solid blue;
+}
+
+.g {
+    border: 1px solid green;
+}
+
+.o {
+    border: 1px solid orangered;
+}

@@ -1,0 +1,27 @@
+*{
+    box-sizing:border-box;
+}
+
+html,body,h1,h2,h3,h4,h5,h6,p,div,a,
+header,main,nav,footer,aside,section,article,figure,
+table,thead,tbody,tfoot,tr,th,td,
+ul,ol,li,dl,dt,dd,address,
+video,img,em,span,sub,sup,code,del,s,q,blockquote,
+form,fieldset,input,button,select,option,textarea {
+    margin:0; padding:0;
+    font-family: 'SCDream', 'Noto Sans KR' , 'sans-serif';
+    color: var(--color-black);
+}
+ul,ol,li {list-style:none;}
+table,thead,tbody,tfoot,tr,th,td {border-collapse:collapse;}
+a {text-decoration:none; color:#000;}
+fieldset {border:0;}
+input, button, label {cursor:pointer; background:none; border:0;}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+address{
+    font-style:normal;
+}
